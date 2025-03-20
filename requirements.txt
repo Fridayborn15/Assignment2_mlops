@@ -7,7 +7,6 @@ flake8
 mlflow
 seaborn
 matplotlib
-os
 tensorflow
 ydata_profiling
 shap
