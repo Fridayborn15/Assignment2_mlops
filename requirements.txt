@@ -10,7 +10,6 @@ matplotlib
 tensorflow
 ydata_profiling
 shap
-sklearn
 lime
 skimage
 h2o
