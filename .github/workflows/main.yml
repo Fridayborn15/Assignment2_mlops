@@ -25,7 +25,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Linting
-      run: flake8 train.py
+      run: flake8 M4_UnitTest.py
 
     - name: Run Tests
       run: pytest M4_UnitTest.py --import-mode=importlib  # Forces pytest to use correct import
