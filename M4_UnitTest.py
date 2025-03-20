@@ -112,4 +112,7 @@ def test_train_and_save_model(self, mock_wandb_init, mock_wandb_log, mock_wandb_
             os.remove("wandb_logs.json")
 
 if __name__ == '__main__':
+
+    
     unittest.main()
+    
