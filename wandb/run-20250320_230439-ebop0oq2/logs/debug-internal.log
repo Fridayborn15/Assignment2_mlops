@@ -1,0 +1,19 @@
+{"time":"2025-03-20T23:04:40.0197778+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_MLOPS_v1\\Assignment2_mlops\\wandb\\run-20250320_230439-ebop0oq2\\logs\\debug-core.log"}
+{"time":"2025-03-20T23:04:40.4009096+05:30","level":"INFO","msg":"created new stream","id":"ebop0oq2"}
+{"time":"2025-03-20T23:04:40.4014832+05:30","level":"INFO","msg":"stream: started","id":"ebop0oq2"}
+{"time":"2025-03-20T23:04:40.4020443+05:30","level":"INFO","msg":"handler: started","stream_id":"ebop0oq2"}
+{"time":"2025-03-20T23:04:40.4026305+05:30","level":"INFO","msg":"sender: started","stream_id":"ebop0oq2"}
+{"time":"2025-03-20T23:04:40.4026305+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ebop0oq2"}
+{"time":"2025-03-20T23:04:41.0439471+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T23:04:56.0668812+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:05:04.4242607+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-20T23:05:11.1368524+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:05:26.0750887+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:05:27.1316532+05:30","level":"INFO","msg":"stream: closing","id":"ebop0oq2"}
+{"time":"2025-03-20T23:05:27.1316532+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T23:05:27.1336223+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T23:05:33.2992281+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T23:05:33.6590135+05:30","level":"INFO","msg":"handler: closed","stream_id":"ebop0oq2"}
+{"time":"2025-03-20T23:05:33.6590135+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ebop0oq2"}
+{"time":"2025-03-20T23:05:33.6590135+05:30","level":"INFO","msg":"sender: closed","stream_id":"ebop0oq2"}
+{"time":"2025-03-20T23:05:33.6595801+05:30","level":"INFO","msg":"stream: closed","id":"ebop0oq2"}

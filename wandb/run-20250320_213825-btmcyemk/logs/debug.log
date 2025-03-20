@@ -1,0 +1,14 @@
+2025-03-20 21:38:25,056 INFO    MainThread:37700 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\run-20250320_213825-btmcyemk\logs\debug.log
+2025-03-20 21:38:25,058 INFO    MainThread:37700 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\run-20250320_213825-btmcyemk\logs\debug-internal.log
+2025-03-20 21:38:25,058 INFO    MainThread:37700 [wandb_init.py:init():761] calling init triggers
+2025-03-20 21:38:25,058 INFO    MainThread:37700 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-20 21:38:25,058 INFO    MainThread:37700 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-20 21:39:06,533 INFO    MainThread:37700 [wandb_run.py:_finish():2112] finishing run 2023aa05306-bits-pilani/fashion-mnist-drift/qhpncff3
+2025-03-20 21:39:06,534 INFO    MainThread:37700 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-20 21:39:06,535 INFO    MainThread:37700 [wandb_run.py:_restore():2322] restore
+2025-03-20 21:39:06,536 INFO    MainThread:37700 [wandb_run.py:_restore():2328] restore done
+2025-03-20 21:39:15,064 INFO    MainThread:37700 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-20 21:39:15,065 INFO    MainThread:37700 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-20 21:39:15,065 INFO    MainThread:37700 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-20 21:40:25,586 INFO    MsgRouterThr:37700 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

@@ -1,0 +1,8 @@
+Observed Drift Summary -----  0.288265306122449
+Significant data drift detected! Retraining the model...
+[1m313/313[0m [32m====================[0m[37m[0m [1m6s[0m 13ms/step - accuracy: 0.4039 - loss: 1.9106 - val_accuracy: 0.6247 - val_loss: 1.5132
+[1m313/313[0m [32m====================[0m[37m[0m [1m3s[0m 11ms/step - accuracy: 0.6191 - loss: 1.4332 - val_accuracy: 0.6256 - val_loss: 1.2443
+[1m313/313[0m [32m====================[0m[37m[0m [1m3s[0m 10ms/step - accuracy: 0.6385 - loss: 1.1789 - val_accuracy: 0.6328 - val_loss: 1.0701
+[1m313/313[0m [32m====================[0m[37m[0m [1m4s[0m 13ms/step - accuracy: 0.6331 - loss: 1.0383 - val_accuracy: 0.6511 - val_loss: 0.9885
+[1m313/313[0m [32m====================[0m[37m[0m [1m5s[0m 15ms/step - accuracy: 0.6615 - loss: 0.9334 - val_accuracy: 0.6632 - val_loss: 0.8937
+Ensemble stacked model retrained and saved as 'fashion_mnist_updated_model.keras'

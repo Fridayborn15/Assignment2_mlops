@@ -1,0 +1,22 @@
+{"time":"2025-03-20T23:16:00.5513577+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_MLOPS_v1\\Assignment2_mlops\\wandb\\run-20250320_231600-riit6bp9\\logs\\debug-core.log"}
+{"time":"2025-03-20T23:16:00.7842249+05:30","level":"INFO","msg":"created new stream","id":"riit6bp9"}
+{"time":"2025-03-20T23:16:00.7842249+05:30","level":"INFO","msg":"stream: started","id":"riit6bp9"}
+{"time":"2025-03-20T23:16:00.7842249+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"riit6bp9"}
+{"time":"2025-03-20T23:16:00.7849742+05:30","level":"INFO","msg":"handler: started","stream_id":"riit6bp9"}
+{"time":"2025-03-20T23:16:00.7849742+05:30","level":"INFO","msg":"sender: started","stream_id":"riit6bp9"}
+{"time":"2025-03-20T23:16:01.3471472+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T23:16:16.4419794+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:16:31.4075287+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:16:46.3793967+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:17:00.3172263+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-20T23:17:01.3839804+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:17:16.393668+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:17:22.2404326+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T23:17:22.258375+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T23:17:23.2571607+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading fashion_mnist_updated_model.keras","runtime_seconds":0.6546099,"progress":"336.0KB/3.5MB"},{"desc":"uploading output.log","runtime_seconds":0.6546099,"progress":"1.1KB/1.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6546099,"progress":"253B/253B"},{"desc":"uploading config.yaml","runtime_seconds":0.2898267,"progress":"772B/772B"}],"total_operations":4}}
+{"time":"2025-03-20T23:17:29.4102505+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T23:17:29.8011849+05:30","level":"INFO","msg":"stream: closing","id":"riit6bp9"}
+{"time":"2025-03-20T23:17:29.8011849+05:30","level":"INFO","msg":"handler: closed","stream_id":"riit6bp9"}
+{"time":"2025-03-20T23:17:29.8011849+05:30","level":"INFO","msg":"sender: closed","stream_id":"riit6bp9"}
+{"time":"2025-03-20T23:17:29.8011849+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"riit6bp9"}
+{"time":"2025-03-20T23:17:29.8017398+05:30","level":"INFO","msg":"stream: closed","id":"riit6bp9"}

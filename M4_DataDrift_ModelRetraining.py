@@ -109,7 +109,6 @@ if drift_summary > DRIFT_THRESHOLD:
     # Train a new ensemble stacked model
     def train_and_save_model():
         wandb.init(project="fashion-mnist-drift", name="model-retraining-run")
-
         model = build_stacked_model()
 
         # Train with Drifted Data and Log Performance
@@ -125,12 +124,16 @@ if drift_summary > DRIFT_THRESHOLD:
                 "val_accuracy": history.history["val_accuracy"][0]
             })
 
-        # Save Updated Model
-        model.save("fashion_mnist_updated_model.h5")
-        wandb.save("fashion_mnist_updated_model.h5")  # Log model artifact to W&B
-        print("Ensemble stacked model retrained and saved as 'fashion_mnist_updated_model.h5'")
+        # Fix 1: Save using the new Keras format instead of HDF5
+        model.save("fashion_mnist_updated_model.keras")
+
+        # Fix 2: Ensure W&B is initialized before saving the model
+        wandb.save("fashion_mnist_updated_model.keras")
+
+        print("Ensemble stacked model retrained and saved as 'fashion_mnist_updated_model.keras'")
 
         wandb.finish()  # Finish W&B tracking
+
 
     train_and_save_model()
 else:

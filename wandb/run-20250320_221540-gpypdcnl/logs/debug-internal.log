@@ -1,0 +1,21 @@
+{"time":"2025-03-20T22:15:40.4425535+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_MLOPS_v1\\Assignment2_mlops\\wandb\\run-20250320_221540-gpypdcnl\\logs\\debug-core.log"}
+{"time":"2025-03-20T22:15:40.6862279+05:30","level":"INFO","msg":"created new stream","id":"gpypdcnl"}
+{"time":"2025-03-20T22:15:40.6867662+05:30","level":"INFO","msg":"stream: started","id":"gpypdcnl"}
+{"time":"2025-03-20T22:15:40.6873109+05:30","level":"INFO","msg":"sender: started","stream_id":"gpypdcnl"}
+{"time":"2025-03-20T22:15:40.6873109+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gpypdcnl"}
+{"time":"2025-03-20T22:15:40.6867662+05:30","level":"INFO","msg":"handler: started","stream_id":"gpypdcnl"}
+{"time":"2025-03-20T22:15:41.2032422+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T22:15:56.2300508+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T22:16:11.2348103+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T22:16:11.28137+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-20T22:16:26.2493147+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T22:16:41.3063837+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T22:16:42.1232658+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T22:16:42.1305515+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T22:16:43.1359096+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading fashion_mnist_updated_model.h5","runtime_seconds":0.6726736,"progress":"336.0KB/3.5MB"},{"desc":"uploading history steps 4-5, summary, console lines 5-8","runtime_seconds":0.3579831},{"desc":"uploading config.yaml","runtime_seconds":0.3166309,"progress":"772B/772B"}],"total_operations":3}}
+{"time":"2025-03-20T22:16:49.0956653+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T22:16:49.5888653+05:30","level":"INFO","msg":"stream: closing","id":"gpypdcnl"}
+{"time":"2025-03-20T22:16:49.5888653+05:30","level":"INFO","msg":"handler: closed","stream_id":"gpypdcnl"}
+{"time":"2025-03-20T22:16:49.5888653+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gpypdcnl"}
+{"time":"2025-03-20T22:16:49.5895055+05:30","level":"INFO","msg":"sender: closed","stream_id":"gpypdcnl"}
+{"time":"2025-03-20T22:16:49.592731+05:30","level":"INFO","msg":"stream: closed","id":"gpypdcnl"}
