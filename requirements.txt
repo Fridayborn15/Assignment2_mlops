@@ -11,7 +11,7 @@ tensorflow
 ydata_profiling
 shap
 lime
-skimage
+scikit-image
 h2o
 optuna
 wandb
