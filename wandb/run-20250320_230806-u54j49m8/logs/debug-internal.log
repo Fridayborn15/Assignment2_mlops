@@ -1,0 +1,21 @@
+{"time":"2025-03-20T23:08:06.5032155+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_MLOPS_v1\\Assignment2_mlops\\wandb\\run-20250320_230806-u54j49m8\\logs\\debug-core.log"}
+{"time":"2025-03-20T23:08:06.752595+05:30","level":"INFO","msg":"created new stream","id":"u54j49m8"}
+{"time":"2025-03-20T23:08:06.752595+05:30","level":"INFO","msg":"stream: started","id":"u54j49m8"}
+{"time":"2025-03-20T23:08:06.752595+05:30","level":"INFO","msg":"handler: started","stream_id":"u54j49m8"}
+{"time":"2025-03-20T23:08:06.752595+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"u54j49m8"}
+{"time":"2025-03-20T23:08:06.752595+05:30","level":"INFO","msg":"sender: started","stream_id":"u54j49m8"}
+{"time":"2025-03-20T23:08:07.5716804+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T23:08:22.6168795+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:08:37.6266647+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:08:52.6081499+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:08:57.2798548+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-20T23:09:07.611026+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:09:22.6258488+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T23:09:23.6064765+05:30","level":"INFO","msg":"stream: closing","id":"u54j49m8"}
+{"time":"2025-03-20T23:09:23.6070129+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T23:09:23.6090555+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T23:09:31.9182952+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T23:09:32.2742905+05:30","level":"INFO","msg":"handler: closed","stream_id":"u54j49m8"}
+{"time":"2025-03-20T23:09:32.2742905+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"u54j49m8"}
+{"time":"2025-03-20T23:09:32.2742905+05:30","level":"INFO","msg":"sender: closed","stream_id":"u54j49m8"}
+{"time":"2025-03-20T23:09:32.2747947+05:30","level":"INFO","msg":"stream: closed","id":"u54j49m8"}

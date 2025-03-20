@@ -1,0 +1,9 @@
+Observed Drift Summary -----  0.288265306122449
+Significant data drift detected! Retraining the model...
+[1m313/313[0m [32m====================[0m[37m[0m [1m14s[0m 21ms/step - accuracy: 0.5738 - loss: 1.8618 - val_accuracy: 0.6790 - val_loss: 1.4284
+[1m313/313[0m [32m====================[0m[37m[0m [1m10s[0m 31ms/step - accuracy: 0.7111 - loss: 1.3456 - val_accuracy: 0.7419 - val_loss: 1.1119
+[1m313/313[0m [32m====================[0m[37m[0m [1m6s[0m 18ms/step - accuracy: 0.7423 - loss: 1.0501 - val_accuracy: 0.7116 - val_loss: 0.9663
+[1m313/313[0m [32m====================[0m[37m[0m [1m6s[0m 20ms/step - accuracy: 0.7449 - loss: 0.8890 - val_accuracy: 0.7518 - val_loss: 0.8323
+[1m313/313[0m [32m====================[0m[37m[0m [1m4s[0m 13ms/step - accuracy: 0.7798 - loss: 0.7708 - val_accuracy: 0.7666 - val_loss: 0.7655
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+Ensemble stacked model retrained and saved as 'fashion_mnist_updated_model.h5'

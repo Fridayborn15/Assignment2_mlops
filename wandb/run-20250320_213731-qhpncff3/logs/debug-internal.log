@@ -1,0 +1,23 @@
+{"time":"2025-03-20T21:37:31.9585604+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_MLOPS_v1\\Assignment2_mlops\\wandb\\run-20250320_213731-qhpncff3\\logs\\debug-core.log"}
+{"time":"2025-03-20T21:37:32.2142216+05:30","level":"INFO","msg":"created new stream","id":"qhpncff3"}
+{"time":"2025-03-20T21:37:32.2148317+05:30","level":"INFO","msg":"stream: started","id":"qhpncff3"}
+{"time":"2025-03-20T21:37:32.2148317+05:30","level":"INFO","msg":"handler: started","stream_id":"qhpncff3"}
+{"time":"2025-03-20T21:37:32.2159136+05:30","level":"INFO","msg":"sender: started","stream_id":"qhpncff3"}
+{"time":"2025-03-20T21:37:32.2159136+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qhpncff3"}
+{"time":"2025-03-20T21:37:33.9164222+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T21:37:48.9558928+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T21:38:03.9614977+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T21:38:18.9520526+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T21:38:25.641299+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-20T21:38:34.1168796+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T21:38:49.0086771+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T21:39:03.9995016+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T21:39:06.5380035+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T21:39:06.5413015+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T21:39:07.5581575+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.1719084,"progress":"255B/255B"},{"desc":"uploading fashion_mnist_updated_model.h5","runtime_seconds":0.1719084,"progress":"64.0KB/3.5MB"},{"desc":"uploading output.log","runtime_seconds":0.1719084,"progress":"1.4KB/1.4KB"}],"total_operations":3}}
+{"time":"2025-03-20T21:39:14.7046698+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T21:39:15.0675131+05:30","level":"INFO","msg":"stream: closing","id":"qhpncff3"}
+{"time":"2025-03-20T21:39:15.0675131+05:30","level":"INFO","msg":"handler: closed","stream_id":"qhpncff3"}
+{"time":"2025-03-20T21:39:15.0675131+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qhpncff3"}
+{"time":"2025-03-20T21:39:15.0680633+05:30","level":"INFO","msg":"sender: closed","stream_id":"qhpncff3"}
+{"time":"2025-03-20T21:39:15.0680633+05:30","level":"INFO","msg":"stream: closed","id":"qhpncff3"}

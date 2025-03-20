@@ -1,0 +1,29 @@
+2025-03-20 23:04:39,833 INFO    MainThread:32096 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-20 23:04:39,836 INFO    MainThread:32096 [wandb_setup.py:_flush():67] Configure stats pid to 32096
+2025-03-20 23:04:39,836 INFO    MainThread:32096 [wandb_setup.py:_flush():67] Loading settings from C:\Users\sansharma\.config\wandb\settings
+2025-03-20 23:04:39,836 INFO    MainThread:32096 [wandb_setup.py:_flush():67] Loading settings from c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\settings
+2025-03-20 23:04:39,836 INFO    MainThread:32096 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-20 23:04:39,837 INFO    MainThread:32096 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\run-20250320_230439-ebop0oq2\logs\debug.log
+2025-03-20 23:04:39,838 INFO    MainThread:32096 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\run-20250320_230439-ebop0oq2\logs\debug-internal.log
+2025-03-20 23:04:39,838 INFO    MainThread:32096 [wandb_init.py:init():761] calling init triggers
+2025-03-20 23:04:39,839 INFO    MainThread:32096 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-20 23:04:39,839 INFO    MainThread:32096 [wandb_init.py:init():784] starting backend
+2025-03-20 23:04:39,839 INFO    MainThread:32096 [wandb_init.py:init():788] sending inform_init request
+2025-03-20 23:04:39,993 INFO    MainThread:32096 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-20 23:04:39,993 INFO    MainThread:32096 [wandb_init.py:init():798] backend started and connected
+2025-03-20 23:04:39,997 INFO    MainThread:32096 [wandb_init.py:init():891] updated telemetry
+2025-03-20 23:04:40,233 INFO    MainThread:32096 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-20 23:04:41,026 INFO    MainThread:32096 [wandb_init.py:init():990] starting run threads in backend
+2025-03-20 23:04:43,029 INFO    MainThread:32096 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-20 23:04:43,030 INFO    MainThread:32096 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-20 23:04:43,030 INFO    MainThread:32096 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-20 23:04:43,030 INFO    MainThread:32096 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-20 23:04:43,037 INFO    MainThread:32096 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-20 23:05:03,720 INFO    MainThread:32096 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\run-20250320_230503-1zkvjdgo\logs\debug.log
+2025-03-20 23:05:03,723 INFO    MainThread:32096 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Assignment2_MLOPS_v1\Assignment2_mlops\wandb\run-20250320_230503-1zkvjdgo\logs\debug-internal.log
+2025-03-20 23:05:03,723 INFO    MainThread:32096 [wandb_init.py:init():761] calling init triggers
+2025-03-20 23:05:03,723 INFO    MainThread:32096 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-20 23:05:03,724 INFO    MainThread:32096 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-20 23:05:27,126 INFO    MsgRouterThr:32096 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

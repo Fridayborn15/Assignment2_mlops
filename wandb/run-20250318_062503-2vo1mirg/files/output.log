@@ -1,0 +1,11 @@
+Observed Drift Summary -----  0.288265306122449
+Significant data drift detected! Retraining the model...
+C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+[1m313/313[0m [32m====================[0m[37m[0m [1m2s[0m 5ms/step - accuracy: 0.6470 - loss: 0.9839 - val_accuracy: 0.8000 - val_loss: 0.5875
+[1m313/313[0m [32m====================[0m[37m[0m [1m1s[0m 4ms/step - accuracy: 0.8147 - loss: 0.5103 - val_accuracy: 0.8405 - val_loss: 0.4745
+[1m313/313[0m [32m====================[0m[37m[0m [1m1s[0m 4ms/step - accuracy: 0.8359 - loss: 0.4537 - val_accuracy: 0.8212 - val_loss: 0.4810
+[1m313/313[0m [32m====================[0m[37m[0m [1m1s[0m 4ms/step - accuracy: 0.8538 - loss: 0.4176 - val_accuracy: 0.8429 - val_loss: 0.4303
+[1m313/313[0m [32m====================[0m[37m[0m [1m1s[0m 4ms/step - accuracy: 0.8586 - loss: 0.3940 - val_accuracy: 0.8574 - val_loss: 0.3985
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+Model retrained and saved as 'fashion_mnist_updated_model.h5'

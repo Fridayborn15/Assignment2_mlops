@@ -1,0 +1,19 @@
+Observed Drift Summary -----  0.288265306122449
+Traceback (most recent call last):
+  File "c:\Assignment2_mlops\M4.py", line 56, in <module>
+    wandb.log_artifact("wandb_logs.json")
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 401, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 391, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 3101, in log_artifact
+    return self._log_artifact(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 3244, in _log_artifact
+    artifact, aliases = self._prepare_artifact(
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\wandb\sdk\wandb_run.py", line 3343, in _prepare_artifact
+    raise ValueError(
+ValueError: path must be a file, directory or externalreference like s3://bucket/path

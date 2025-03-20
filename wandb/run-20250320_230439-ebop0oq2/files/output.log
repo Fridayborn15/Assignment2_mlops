@@ -1,0 +1,21 @@
+Observed Drift Summary -----  0.288265306122449
+Significant data drift detected! Retraining the model...
+[1m313/313[0m [32m====================[0m[37m[0m [1m6s[0m 11ms/step - accuracy: 0.5686 - loss: 1.8757 - val_accuracy: 0.7122 - val_loss: 1.4339
+[1m313/313[0m [32m====================[0m[37m[0m [1m3s[0m 10ms/step - accuracy: 0.7209 - loss: 1.3314 - val_accuracy: 0.7251 - val_loss: 1.0883
+[1m313/313[0m [32m====================[0m[37m[0m [1m3s[0m 9ms/step - accuracy: 0.7337 - loss: 1.0248 - val_accuracy: 0.6921 - val_loss: 1.0571
+[1m313/313[0m [32m====================[0m[37m[0m [1m3s[0m 9ms/step - accuracy: 0.7384 - loss: 0.8940 - val_accuracy: 0.7550 - val_loss: 0.7870
+[1m313/313[0m [32m====================[0m[37m[0m [1m3s[0m 9ms/step - accuracy: 0.7567 - loss: 0.7715 - val_accuracy: 0.7573 - val_loss: 0.7246
+Traceback (most recent call last):
+  File "c:\Assignment2_MLOPS_v1\Assignment2_mlops\M4_UnitTest.py", line 13, in <module>
+    from M4_DataDrift_ModelRetraining import introduce_feature_drift, build_stacked_model, train_and_save_model
+  File "c:\Assignment2_MLOPS_v1\Assignment2_mlops\M4_DataDrift_ModelRetraining.py", line 138, in <module>
+    train_and_save_model()
+  File "c:\Assignment2_MLOPS_v1\Assignment2_mlops\M4_DataDrift_ModelRetraining.py", line 133, in train_and_save_model
+    print("✅ Ensemble stacked model retrained and saved as 'fashion_mnist_updated_model.keras'")
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\site-packages\wandb\sdk\lib\console_capture.py", line 147, in write_with_callbacks
+    n = orig_write(s)
+        ^^^^^^^^^^^^^
+  File "C:\Users\sansharma\AppData\Local\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>

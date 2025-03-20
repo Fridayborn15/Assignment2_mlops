@@ -1,0 +1,18 @@
+{"time":"2025-03-18T06:25:03.2883238+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_mlops\\wandb\\run-20250318_062503-2vo1mirg\\logs\\debug-core.log"}
+{"time":"2025-03-18T06:25:04.0180285+05:30","level":"INFO","msg":"created new stream","id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:04.0185623+05:30","level":"INFO","msg":"stream: started","id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:04.0180285+05:30","level":"INFO","msg":"handler: started","stream_id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:04.0185623+05:30","level":"INFO","msg":"sender: started","stream_id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:04.0185623+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:04.526132+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-18T06:25:19.5508396+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-18T06:25:24.3970637+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-18T06:25:32.005468+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-18T06:25:32.0081554+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-18T06:25:33.0090252+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading fashion_mnist_updated_model.h5","runtime_seconds":0.6632803,"progress":"336.0KB/1.2MB"},{"desc":"uploading config.yaml","runtime_seconds":0.3241339,"progress":"772B/772B"}],"total_operations":2}}
+{"time":"2025-03-18T06:25:35.2953423+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-18T06:25:35.6948544+05:30","level":"INFO","msg":"stream: closing","id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:35.6948544+05:30","level":"INFO","msg":"handler: closed","stream_id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:35.6948544+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:35.6948544+05:30","level":"INFO","msg":"sender: closed","stream_id":"2vo1mirg"}
+{"time":"2025-03-18T06:25:35.6964619+05:30","level":"INFO","msg":"stream: closed","id":"2vo1mirg"}

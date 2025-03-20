@@ -1,0 +1,20 @@
+{"time":"2025-03-20T14:15:44.9640934+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_mlops\\wandb\\run-20250320_141544-vot07ml2\\logs\\debug-core.log"}
+{"time":"2025-03-20T14:15:45.2055767+05:30","level":"INFO","msg":"created new stream","id":"vot07ml2"}
+{"time":"2025-03-20T14:15:45.2061638+05:30","level":"INFO","msg":"stream: started","id":"vot07ml2"}
+{"time":"2025-03-20T14:15:45.2066795+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vot07ml2"}
+{"time":"2025-03-20T14:15:45.2066795+05:30","level":"INFO","msg":"sender: started","stream_id":"vot07ml2"}
+{"time":"2025-03-20T14:15:45.2066795+05:30","level":"INFO","msg":"handler: started","stream_id":"vot07ml2"}
+{"time":"2025-03-20T14:15:45.7620531+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T14:16:00.8032125+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T14:16:15.7976054+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T14:16:16.0356662+05:30","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2025-03-20T14:16:30.8372689+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T14:16:37.677509+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T14:16:37.6819766+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T14:16:38.7004248+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-20T14:16:47.9714755+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T14:16:48.3375387+05:30","level":"INFO","msg":"stream: closing","id":"vot07ml2"}
+{"time":"2025-03-20T14:16:48.3375387+05:30","level":"INFO","msg":"handler: closed","stream_id":"vot07ml2"}
+{"time":"2025-03-20T14:16:48.3375387+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vot07ml2"}
+{"time":"2025-03-20T14:16:48.3375387+05:30","level":"INFO","msg":"sender: closed","stream_id":"vot07ml2"}
+{"time":"2025-03-20T14:16:48.3388182+05:30","level":"INFO","msg":"stream: closed","id":"vot07ml2"}
