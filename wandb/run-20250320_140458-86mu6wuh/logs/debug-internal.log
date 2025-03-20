@@ -1,0 +1,18 @@
+{"time":"2025-03-20T14:04:59.1549579+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Assignment2_mlops\\wandb\\run-20250320_140458-86mu6wuh\\logs\\debug-core.log"}
+{"time":"2025-03-20T14:05:00.2391961+05:30","level":"INFO","msg":"created new stream","id":"86mu6wuh"}
+{"time":"2025-03-20T14:05:00.2401992+05:30","level":"INFO","msg":"stream: started","id":"86mu6wuh"}
+{"time":"2025-03-20T14:05:00.2565248+05:30","level":"INFO","msg":"handler: started","stream_id":"86mu6wuh"}
+{"time":"2025-03-20T14:05:00.2570416+05:30","level":"INFO","msg":"sender: started","stream_id":"86mu6wuh"}
+{"time":"2025-03-20T14:05:00.2570416+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"86mu6wuh"}
+{"time":"2025-03-20T14:05:01.2963428+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T14:05:16.3618656+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T14:05:31.4007597+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T14:05:46.3421858+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-03-20T14:05:56.8810951+05:30","level":"INFO","msg":"stream: closing","id":"86mu6wuh"}
+{"time":"2025-03-20T14:05:56.8810951+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T14:05:56.8840063+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T14:06:00.3354461+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T14:06:00.7057865+05:30","level":"INFO","msg":"sender: closed","stream_id":"86mu6wuh"}
+{"time":"2025-03-20T14:06:00.7062946+05:30","level":"INFO","msg":"handler: closed","stream_id":"86mu6wuh"}
+{"time":"2025-03-20T14:06:00.7062946+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"86mu6wuh"}
+{"time":"2025-03-20T14:06:00.7062946+05:30","level":"INFO","msg":"stream: closed","id":"86mu6wuh"}
