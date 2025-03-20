@@ -22,22 +22,22 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r /requirements.txt
+        pip install -r requirements.txt
 
     - name: Run Linting
       run: flake8 train.py
 
     - name: Run Tests
-      run: pytest /M4_UnitTest.py --import-mode=importlib  # Forces pytest to use correct import
+      run: pytest M4_UnitTest.py --import-mode=importlib  # Forces pytest to use correct import
 
     - name: Train model
       run: |
-        python /M1_EdaAnalysis.py
-        python /M2_FeatureEngg_Explainbility.py
-        python /M3_AutoML.py
-        python /M4_DataDrift_ModelRetraining.py
+        python M1_EdaAnalysis.py
+        python M2_FeatureEngg_Explainbility.py
+        python M3_AutoML.py
+        python M4_DataDrift_ModelRetraining.py
 
     - name: Save model
       run: |
         mkdir model
-        cp /fashion_mnist_updated_model.keras model/
+        cp fashion_mnist_updated_model.keras model/
