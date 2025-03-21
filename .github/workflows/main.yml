@@ -28,7 +28,7 @@ jobs:
       run: flake8 M4_UnitTest.py
 
     - name: Run Tests
-      run: pytest M4_UnitTest.py --import-mode=importlib  # Forces pytest to use correct import
+      run: python -m unittest M4_UnitTest.py
 
     - name: Train model
       run: |
