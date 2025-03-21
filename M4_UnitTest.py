@@ -34,12 +34,12 @@ class TestFashionMNISTPipeline(unittest.TestCase):
 
     def test_introduce_feature_drift(self):
         """ Test that the brightness drift is applied correctly. """
-        x_test_drifted = introduce_feature_drift(
+        x_test_drftd = introduce_feature_drift(
             self.x_test, self.y_test, self.drift_classes, self.factor
         )
 
         # Ensure shape remains unchanged
-        self.assertEqual(self.x_test.shape, x_test_drifted.shape)
+        self.assertEqual(self.x_test.shape, x_test_drftd.shape)
 
         # Check drift was applied correctly for specific classes
         for class_label in self.drift_classes:
@@ -47,7 +47,7 @@ class TestFashionMNISTPipeline(unittest.TestCase):
             if len(affected_samples) > 0:
                 sample_idx = affected_samples[0]
                 self.assertTrue(
-                    np.any(x_test_drifted[sample_idx] > self.x_test[sample_idx])
+                    np.any(x_test_drftd[sample_idx] > self.x_test[sample_idx])
                 )
 
     def test_drift_detection(self):
@@ -104,15 +104,15 @@ class TestFashionMNISTPipeline(unittest.TestCase):
     @patch("wandb.save")
     @patch("wandb.finish")
     def test_train_and_save_model(
-        self, mock_wandb_init, mock_wandb_log, mock_wandb_save, mock_wandb_finish
+        self, mock_wb_init, mock_wb_log, mock_wb_save, mock_wb_finish
     ):
         """ Test if the model trains and saves correctly without errors. """
 
         # Mock W&B tracking
-        mock_wandb_init.return_value = MagicMock()
-        mock_wandb_log.return_value = None
-        mock_wandb_save.return_value = None
-        mock_wandb_finish.return_value = None
+        mock_wb_init.return_value = MagicMock()
+        mock_wb_log.return_value = None
+        mock_wb_save.return_value = None
+        mock_wb_finish.return_value = None
 
         # Ensure W&B initialization is not missing
         train_and_save_model()
