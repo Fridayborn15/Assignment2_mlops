@@ -47,9 +47,7 @@ class TestFashionMNISTPipeline(unittest.TestCase):
             if len(affected_samples) > 0:
                 sample_idx = affected_samples[0]
                 self.assertTrue(
-                    np.any(
-					x_test_drifted[sample_idx] > self.x_test[sample_idx]
-					)
+                    np.any(x_test_drifted[sample_idx] > self.x_test[sample_idx])
                 )
 
     def test_drift_detection(self):
@@ -106,11 +104,7 @@ class TestFashionMNISTPipeline(unittest.TestCase):
     @patch("wandb.save")
     @patch("wandb.finish")
     def test_train_and_save_model(
-        self,
-		mock_wandb_init,
-		mock_wandb_log,
-		mock_wandb_save,
-		mock_wandb_finish
+        self, mock_wandb_init, mock_wandb_log, mock_wandb_save, mock_wandb_finish
     ):
         """ Test if the model trains and saves correctly without errors. """
 
