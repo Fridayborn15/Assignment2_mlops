@@ -47,17 +47,22 @@ class TestFashionMNISTPipeline(unittest.TestCase):
             if len(affected_samples) > 0:
                 sample_idx = affected_samples[0]
                 self.assertTrue(
-                    np.any(x_test_drifted[sample_idx] > self.x_test[sample_idx])
+                    np.any(
+					x_test_drifted[sample_idx] > self.x_test[sample_idx]
+					)
                 )
 
     def test_drift_detection(self):
         """ Test if drift detection correctly identifies changes. """
         column_names = [
-            f'pixel_{i}' for i in range(self.x_test.shape[1] * self.x_test.shape[2])
+            f'pixel_{i}' for i in range(
+                self.x_test.shape[1] * self.x_test.shape[2]
+            )
         ]
 
         reference_data = pd.DataFrame(
-            self.x_test.reshape(self.x_test.shape[0], -1), columns=column_names
+            self.x_test.reshape(self.x_test.shape[0], -1),
+            columns=column_names,
         )
 
         drifted_data = introduce_feature_drift(
@@ -65,13 +70,15 @@ class TestFashionMNISTPipeline(unittest.TestCase):
         )
 
         new_data = pd.DataFrame(
-            drifted_data.reshape(self.x_test.shape[0], -1), columns=column_names
+            drifted_data.reshape(self.x_test.shape[0], -1),
+            columns=column_names,
         )
 
         # Run drift detection
         data_drift_report = Report(metrics=[DataDriftTable()])
         data_drift_report.run(
-            reference_data=reference_data, current_data=new_data
+            reference_data=reference_data,
+            current_data=new_data,
         )
 
         drift_results = data_drift_report.as_dict()
@@ -99,7 +106,11 @@ class TestFashionMNISTPipeline(unittest.TestCase):
     @patch("wandb.save")
     @patch("wandb.finish")
     def test_train_and_save_model(
-        self, mock_wandb_init, mock_wandb_log, mock_wandb_save, mock_wandb_finish
+        self,
+		mock_wandb_init,
+		mock_wandb_log,
+		mock_wandb_save,
+		mock_wandb_finish
     ):
         """ Test if the model trains and saves correctly without errors. """
 
