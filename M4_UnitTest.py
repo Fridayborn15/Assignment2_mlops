@@ -118,7 +118,9 @@ class TestFashionMNISTPipeline(unittest.TestCase):
         train_and_save_model()
 
         # Check if the new model file is created
-        self.assertTrue(os.path.exists("fashion_mnist_updated_model.keras"))
+        self.assertTrue(
+            os.path.exists("fashion_mnist_updated_model.keras")
+        )
 
     def test_logging_json(self):
         """ Test if drift summary is logged correctly in JSON. """
