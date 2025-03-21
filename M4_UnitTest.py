@@ -20,7 +20,9 @@ class TestFashionMNISTPipeline(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """ Load dataset and preprocess it for testing. """
-        (x_train, y_train), (x_test, y_test) = tf.keras.datasets.fashion_mnist.load_data()
+        (x_train, y_train), (x_test, y_test) = (
+            tf.keras.datasets.fashion_mnist.load_data()
+        )
 
         # Normalize
         cls.x_train, cls.x_test = x_train / 255.0, x_test / 255.0
@@ -68,10 +70,14 @@ class TestFashionMNISTPipeline(unittest.TestCase):
 
         # Run drift detection
         data_drift_report = Report(metrics=[DataDriftTable()])
-        data_drift_report.run(reference_data=reference_data, current_data=new_data)
+        data_drift_report.run(
+            reference_data=reference_data, current_data=new_data
+        )
 
         drift_results = data_drift_report.as_dict()
-        drift_summary = drift_results["metrics"][0]["result"]["share_of_drifted_columns"]
+        drift_summary = drift_results["metrics"][0]["result"][
+            "share_of_drifted_columns"
+        ]
 
         # Check if drift is within expected range
         self.assertGreaterEqual(drift_summary, 0.0)
